@@ -26,6 +26,6 @@ vector<int> Obtener_Primos(int limit) {
 int main() {
 
     for(int primo : Obtener_Primos(100)) {
-        cout << primo << endl;
+        cout << "Este numero es primo : " << primo << endl;
     }
 }
